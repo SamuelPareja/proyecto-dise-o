@@ -1,0 +1,23 @@
+---
+import Section from "./Section.astro";
+
+import { skills } from "@data";
+---
+
+<Section title="Habilidades" imageUrl="/images/codigo.png" ref="skills">
+  <div
+    class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-4 justify-center"
+  >
+    {
+      skills.map(skill => (
+        <div
+          class="bg-[#282828] rounded p-4 flex flex-col gap-2 items-center"
+          title={skill.label}
+        >
+          <img class="h-16" src={skill.icon} alt={skill.label} />
+          <span class="text-slate-300 text-center">{skill.label}</span>
+        </div>
+      ))
+    }
+  </div>
+</Section>

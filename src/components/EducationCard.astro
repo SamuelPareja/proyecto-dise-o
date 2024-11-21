@@ -1,0 +1,10 @@
+---
+const { institution, area, startDate, endDate, highlights } = Astro.props;
+---
+
+<div>
+  <small class="text-slate-400">{startDate} - {endDate}</small>
+  <h3 class="text-indigo-400 font-bold text-xl mb-2">{area}</h3>
+  <h4 class="font-semibold mb-4 text-slate-400">{institution}</h4>
+  {highlights.map(highlight => <p class="mb-2">{highlight}</p>)}
+</div>

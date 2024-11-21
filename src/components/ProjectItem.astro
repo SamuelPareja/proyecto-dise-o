@@ -1,0 +1,28 @@
+---
+import type { Project } from "src/interfaces/project.interface";
+import ProjectContainersItem from "./ProjectContainersItem.astro";
+
+const { Container }: Project =
+  Astro.props as Project;
+---
+
+
+<div>
+      {
+        Container && (
+          <div class="flex gap-1 flex-wrap mb-3">
+            {Container.map(container => (
+              <ProjectContainersItem
+               name={container.name} 
+               description={container.description} 
+               imageUrl={container.imageUrl} 
+               repositoryUrl={container.repositoryUrl} 
+               demoUrl={container.demoUrl} 
+               tags={container.tags} />
+            ))}
+          </div>
+        )
+      }
+</div>
+
+  

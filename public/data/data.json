@@ -1,0 +1,181 @@
+{
+  "name": "Darío",
+  "fullName": "Darío Vidal",
+  "summary": "Desarrollador Back-end Java Jr",
+  "aboutMe": [
+    "Soy desarrollador Back-end y Front-end, soy estudiante de la carrera Analista Programador Universitario en la Facultad de Ingeniería.",
+    "Me especializo en el desarrollo back-end con Java, Spring Boot, JPA con Hibernate y MySQL.",
+    "Actualmente estoy aprendiendo acerca de tecnologías como Node.js, Angular y Express."
+  ],
+  "email": "dariorvidal.27@gmail.com",
+  "location": "San Salvador de Jujuy, Jujuy, Argentina",
+  "socialNetworks": [
+    {
+      "network": "Linkedin",
+      "iconUrl": "/images/linkedin.svg",
+      "url": "https://www.linkedin.com/in/dariovidal9"
+    },
+    {
+      "network": "Github",
+      "iconUrl": "/images/github.svg",
+      "url": "https://www.github.com/DarioRv"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Facultad de Ingeniería - UNJu",
+      "area": "Analista Programador Universitario",
+      "startDate": "2022",
+      "endDate": "actualidad",
+      "highlights": [
+        "En la carrera he adquirido conocimientos sobre programación orientada a objetos, estructuras de datos, manejo de framworks como Spring Boot, Spring Security y Spring Cloud."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "label": "HTML",
+      "icon": "/images/html5.svg"
+    },
+    {
+      "label": "CSS",
+      "icon": "/images/css.svg"
+    },
+    {
+      "label": "Javascript",
+      "icon": "/images/javascript.svg"
+    },
+    {
+      "label": "Typescript",
+      "icon": "/images/typescript.svg"
+    },
+    {
+      "label": "Node",
+      "icon": "/images/nodejs.svg"
+    },
+    {
+      "label": "Angular",
+      "icon": "/images/angular.svg"
+    },
+    {
+      "label": "Angular Material",
+      "icon": "/images/angular-material.png"
+    },
+    {
+      "label": "RxJs",
+      "icon": "/images/rxjs.svg"
+    },
+    {
+      "label": "Java",
+      "icon": "/images/java.svg"
+    },
+    {
+      "label": "Spring Boot",
+      "icon": "/images/spring-boot.png"
+    },
+    {
+      "label": "Spring Security",
+      "icon": "/images/spring-security.png"
+    },
+    {
+      "label": "MySQL",
+      "icon": "/images/mysql.svg"
+    },
+    {
+      "label": "MongoDB",
+      "icon": "/images/mongodb.svg"
+    },
+    {
+      "label": "Git",
+      "icon": "/images/git.svg"
+    },
+    {
+      "label": "Docker",
+      "icon": "/images/docker.svg"
+    },
+    {
+      "label": "JWT",
+      "icon": "/images/jwt.svg"
+    },
+    {
+      "label": "Figma",
+      "icon": "/images/figma.svg"
+    }
+  ],
+  "experience": [
+    {
+      "startDate": "2019",
+      "endDate": "Actualmente",
+      "ocupation": "Camarero",
+      "name": "Malhablada, Sevilla",
+      "description": "Camarero a tiempo parcial con responsabilidades que incluyen coordinar el servicio de alimentos, gestionar el almacenamiento y el inventario de productos, y asegurar un espacio de trabajo limpio y organizado.",
+      "imageUrl": "/images/proyecto-asistio.png"
+    },
+    {
+      "startDate": "2016",
+      "endDate": "2019",
+      "ocupation": "Camarero",
+      "name": "La Vespa, Sevilla",
+      "description": "Camarero a tiempo parcial con responsabilidades que incluyen coordinar el servicio de alimentos, gestionar el almacenamiento y el inventario de productos, y asegurar un espacio de trabajo limpio y organizado.",
+      "imageUrl": "/images/proyecto-asistio.png"
+    },
+    {
+      "startDate": "2019",
+      "endDate": "Actualmente",
+      "ocupation": "Camarero",
+      "name": "Malhablada, Sevilla",
+      "description": "Camarero a tiempo parcial con responsabilidades que incluyen coordinar el servicio de alimentos, gestionar el almacenamiento y el inventario de productos, y asegurar un espacio de trabajo limpio y organizado.",
+      "imageUrl": "/images/proyecto-asistio.png"
+    }
+  ],
+  "projects": [
+    {
+      "container": [
+        { "name": "ASIST.IO" },
+        { 
+          "description": [
+            "Aplicación web que tiene por objetivo controlar la asistencia de los alumnos a clases, logrando obtener una agilidad y reducción de tiempo para los profesores que realizan esta tarea."
+          ]
+        },
+        { "imageUrl": "/images/proyecto-asistio.png" },
+        { "repositoryUrl": "https://github.com/DarioRv/sistema-asistencia-angular" },
+        { "demoUrl": "https://asistio-a77d7.web.app" },
+        { 
+          "tags": [
+            { "label": "Angular", "iconUrl": "/images/angular.svg" },
+            { "label": "Angular Material", "iconUrl": "/images/angular-material.png" },
+            { "label": "Tailwind", "iconUrl": "/images/tailwindcss.svg" },
+            { "label": "Java", "iconUrl": "/images/java.svg" },
+            { "label": "Spring boot", "iconUrl": "/images/spring-boot.png" },
+            { "label": "Spring Security", "iconUrl": "/images/spring-security.png" },
+            { "label": "JWT", "iconUrl": "/images/jwt.svg" }
+          ]
+        }
+      ]
+    },
+    {
+      "container": [
+        { "name": "ASIST.IO" },
+        { 
+          "description": [
+            "Aplicación web que tiene por objetivo controlar la asistencia de los alumnos a clases, logrando obtener una agilidad y reducción de tiempo para los profesores que realizan esta tarea."
+          ]
+        },
+        { "imageUrl": "/images/proyecto-asistio.png" },
+        { "repositoryUrl": "https://github.com/DarioRv/sistema-asistencia-angular" },
+        { "demoUrl": "https://asistio-a77d7.web.app" },
+        { 
+          "tags": [
+            { "label": "Angular", "iconUrl": "/images/angular.svg" },
+            { "label": "Angular Material", "iconUrl": "/images/angular-material.png" },
+            { "label": "Tailwind", "iconUrl": "/images/tailwindcss.svg" },
+            { "label": "Java", "iconUrl": "/images/java.svg" },
+            { "label": "Spring boot", "iconUrl": "/images/spring-boot.png" },
+            { "label": "Spring Security", "iconUrl": "/images/spring-security.png" },
+            { "label": "JWT", "iconUrl": "/images/jwt.svg" }
+          ]
+        }
+      ]
+    }
+  ]
+}

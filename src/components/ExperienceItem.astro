@@ -1,0 +1,23 @@
+---
+import type { Experience } from "src/interfaces/experience.interface";
+const { startDate, endDate, ocupation, name, description, imageUrl }: Experience = Astro.props as Experience;
+---
+
+<div>
+  <small class="text-slate-400 ">{startDate} - {endDate}</small>
+  <h3 class="text-indigo-400 font-bold text-xl mb-2 mt-8">{ocupation}</h3>
+  <h4 class="font-semibold mb-4 text-slate-400">{name}</h4>
+  <h4 class="font-semibold mb-4 text-slate-400">{description}</h4>
+  <div class="flex flex-col lg:flex-row gap-4">
+    {
+      imageUrl && (
+        <div>
+          <img
+            class="w-64 mt-4 aspect-video rounded-xl"
+            src={imageUrl}
+            alt={`Imagen descriptiva del proyecto ${name}`}
+            />
+        </div>
+      )
+    }
+</div>

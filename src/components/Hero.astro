@@ -1,0 +1,62 @@
+---
+import { fullName, location, socialNetworks, name, email } from "@data";
+import SocialCard from "./SocialCard.astro";
+---
+
+<section
+  class="max-w-[700px] bg-custom-dark rounded-3xl px-8 py-12 mx-2 md:mx-auto mb-12"
+  id="about"
+>
+  <h1 class="text-4xl font-bold mb-4 text-indigo-400">Hola, soy {fullName}</h1>
+
+  <p class="mb-5">
+    Soy desarrollador <em class="text-[#ff5151]">Back-end</em> y <em
+      class="text-[#ff5151]">Front-end</em
+    >, soy estudiante de la carrera <strong class="text-indigo-300"
+      >Analista Programador Universitario</strong
+    >
+    en la Facultad de Ingeniería.
+  </p>
+
+  <p class="mb-5">
+    Me especializo en el desarrollo back-end con <strong class="text-amber-400"
+      >Java</strong
+    >, <strong class="text-emerald-400">Spring Boot</strong>, JPA con Hibernate
+    y <strong class="text-blue-400">MySQL</strong>.
+  </p>
+
+  <p class="mb-5">
+    Actualmente estoy aprendiendo acerca de tecnologías como <strong
+      class="text-green-400">Node.js</strong
+    >,
+    <strong class="text-[#ff5151]">Angular</strong> y <strong
+      class="text-yellow-400">Express</strong
+    >.
+  </p>
+
+  <span class="flex gap-1 items-center text-sm">
+    <img
+      src="/images/pin-de-mapa.png"
+      class="size-4"
+      alt="Icono de pin de mapa"
+    />
+    {location}</span
+  >
+
+  <div class="flex flex-wrap gap-4 mt-3">
+    <SocialCard
+      network="Correo"
+      iconUrl="/images/email.png"
+      url={`mailto:${email}`}
+      title={`Enviar un correo electrónico a ${name}`}
+    />
+    {
+      socialNetworks.map(social => (
+        <SocialCard
+          {...social}
+          title={`Visitar el perfil de ${name} en ${social.network}`}
+        />
+      ))
+    }
+  </div>
+</section>

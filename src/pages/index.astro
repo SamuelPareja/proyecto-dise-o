@@ -1,0 +1,28 @@
+---
+import Education from "@components/Education.astro";
+import Menubar from "../components/Menubar.astro";
+import Layout from "../layouts/Layout.astro";
+import About from "@components/About.astro";
+import Skills from "@components/Skills.astro";
+import Experience from "@components/Experience.astro";
+import Projects from "@components/Projects.astro";
+import Contact from "@components/Contact.astro";
+import TopButton from "@components/TopButton.astro";
+import Hero from "@components/Hero.astro";
+---
+
+<Layout
+  title="Porfolio de Darío - Desarrollador back-end especializado en Java"
+  description="Desarrollador back-end especializado en Java con experiencia en Spring Boot, Hibernate, JPA, Maven, Git, Docker, MySQL."
+>
+  <Menubar />
+  <main>
+    <Hero />
+  </main>
+  <Education />
+  <Skills />
+  <Experience />
+  <Projects />
+  <Contact />
+  <TopButton />
+</Layout>
